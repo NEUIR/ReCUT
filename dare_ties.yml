@@ -1,0 +1,11 @@
+models:
+  - model: #Model paths to be merged
+    parameters:
+      density: 0.25
+      weight: 0.25
+merge_method: dare_ties
+base_model: #Base Model Path
+parameters:
+  normalize: true
+dtype: bfloat16  
+
