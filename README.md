@@ -7,7 +7,7 @@
 # Set up
 **Use `git clone` to download this project**
 ```
-git clone https://github.com/jinzhensheng/ReCUT.git
+git clone https://github.com/NEUIR/ReCUT.git
 cd ReCUT
 ```
 **To prevent conflicts between packages, we mainly use three virtual environment management packages, one for constructive data and evaluate、 one for model training and for model merge.**
@@ -25,6 +25,8 @@ conda env create -n mergekit -f merge_environment.yml
 ```
 
 # Data
+Our corresponding generated training data is placed under the data folder
+
 Download the files from [here](https://huggingface.co/datasets/agentica-org/DeepScaleR-Preview-Dataset)
 Use the downloaded data to synthesize the data using the following scripts
 ```
@@ -65,6 +67,7 @@ python src/long2short_dpo.py
 --pooling # Thing Pool Path
 --output # Output File Path
 ```
+
 # DPO
 Our DPO training uses LLaMA Factory, and the specific training parameters can be found in our dpo.yaml file.
 ```
