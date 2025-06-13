@@ -76,7 +76,7 @@ conda activate long-short
 
 # Merge Model
 Our model merging reference is Mergekit, Please refer to the specific Mergekit documentation for usage. which uses the following script for model merging.
-Merging models requires modifying the dare_ties.yml file, which is located in the folder examples
+Merging models requires modifying the dare_ties.yml file, which is located in the folder main.
 ```
 conda env create -n mergekit -f merge_environment.yml
 cd mergekit
