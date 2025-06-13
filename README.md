@@ -83,6 +83,7 @@ mergekit-yaml Path to the dare_ties.yml file Output path of the merged model
 ```
 
 # Evaluate Pass@1
+Our evaluation uses search-o1's evaluation methodology and we provide nothing but good test datasets. If you have any problems, please refer to [search-o1](), just replace the files prompt.py and run_direct_gen.py.
 ```
 conda env create -n data_eva
 cd evaluate
@@ -98,7 +99,7 @@ python scripts/run_direct_gen.py \
 conda env create -n data_eva
 cd evaluate
 python evaluate_length.py \
---input \
+--input \ # Evaluate the path to the production results file
 --output \
 ```
 
