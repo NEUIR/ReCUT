@@ -14,7 +14,6 @@ cd ReCUT
 
 ```
 for constructive data and evaluate, please:
-cd Data
 conda env create -n data_eva -f data_environment.yml
 
 for model training, please:
