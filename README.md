@@ -5,6 +5,7 @@
  ReCUT employs a stepwise exploration mechanism and a long-short switched sampling strategy, enabling LLMs to incrementally generate diverse reasoning paths. These paths are evaluated and used to construct preference pairs to train two specialized models (Gemini LLMs)—one optimized for reasoning accuracy, the other for shorter reasoning. A final integrated model is obtained by interpolating the parameters of these two models.
 
 Click the links below to view our papers, checkpoints:
+
 <a href='https://arxiv.org/abs/2506.10822'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a><a href='https://huggingface.co/jinpu666/ReCUT-Qwen'><a href='https://huggingface.co/jinpu666/ReCUT-Llama'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoint-blue'></a>
 
 # Set up
