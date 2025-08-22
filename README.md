@@ -19,6 +19,7 @@ cd ReCUT
 ```
 for constructive data and evaluate, please:
 conda env create -n data_eva -f data_environment.yml
+note:If pyairports cannot be downloaded in the data construction and evaluation environment, please use conda install conda-forge::pyairports to install it separately.
 
 for model training, please:
 conda env create -n long-short -f training_environment.yml
